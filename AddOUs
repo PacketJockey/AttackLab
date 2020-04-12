@@ -1,0 +1,21 @@
+New-ADOrganizationalUnit -Name "HR" -Path "OU=!Accounts,DC=ATTACK,DC=LOCAL" -ProtectedFromAccidentalDeletion $Protect -verbose
+New-ADOrganizationalUnit -Name "IT" -Path "OU=!Accounts,DC=ATTACK,DC=LOCAL" -ProtectedFromAccidentalDeletion $Protect -verbose
+New-ADOrganizationalUnit -Name "Finance" -Path "OU=!Accounts,DC=ATTACK,DC=LOCAL" -ProtectedFromAccidentalDeletion $Protect -verbose
+New-ADOrganizationalUnit -Name "Sales" -Path "OU=!Accounts,DC=ATTACK,DC=LOCAL" -ProtectedFromAccidentalDeletion $Protect -verbose
+New-ADOrganizationalUnit -Name "Marketing" -Path "OU=!Accounts,DC=ATTACK,DC=LOCAL" -ProtectedFromAccidentalDeletion $Protect -verbose
+New-ADOrganizationalUnit -Name "Security Groups" -Path "OU=!Accounts,DC=ATTACK,DC=LOCAL" -ProtectedFromAccidentalDeletion $Protect -verbose
+
+
+
+New-ADOrganizationalUnit -Name "Star Wars" -Path "OU=!Accounts,DC=ATTACK,DC=LOCAL" -ProtectedFromAccidentalDeletion $Protect -verbose
+New-ADOrganizationalUnit -Name "Jedi" -Path "OU=!Accounts,DC=ATTACK,DC=LOCAL" -ProtectedFromAccidentalDeletion $Protect -verbose
+New-ADOrganizationalUnit -Name "Sith" -Path "OU=!Accounts,DC=ATTACK,DC=LOCAL" -ProtectedFromAccidentalDeletion $Protect -verbose
+New-ADOrganizationalUnit -Name "Council" -Path "OU=!Accounts,DC=ATTACK,DC=LOCAL" -ProtectedFromAccidentalDeletion $Protect -verbose
+New-ADOrganizationalUnit -Name "Xmen" -Path "OU=!Accounts,DC=ATTACK,DC=LOCAL" -ProtectedFromAccidentalDeletion $Protect -verbose
+New-ADOrganizationalUnit -Name "Shire" -Path "OU=!Accounts,DC=ATTACK,DC=LOCAL" -ProtectedFromAccidentalDeletion $Protect -verbose
+New-ADOrganizationalUnit -Name "Mordor" -Path "OU=!Accounts,DC=ATTACK,DC=LOCAL" -ProtectedFromAccidentalDeletion $Protect -verbose
+New-ADOrganizationalUnit -Name "Gotham" -Path "OU=!Accounts,DC=ATTACK,DC=LOCAL" -ProtectedFromAccidentalDeletion $Protect -verbose
+New-ADOrganizationalUnit -Name "Metropolis" -Path "OU=!Accounts,DC=ATTACK,DC=LOCAL" -ProtectedFromAccidentalDeletion $Protect -verbose
+New-ADOrganizationalUnit -Name "The Federation" -Path "OU=!Accounts,DC=ATTACK,DC=LOCAL" -ProtectedFromAccidentalDeletion $Protect -verbose
+New-ADOrganizationalUnit -Name "Marvel" -Path "OU=!Accounts,DC=ATTACK,DC=LOCAL" -ProtectedFromAccidentalDeletion $Protect -verbose
+New-ADOrganizationalUnit -Name "Hogwarts" -Path "OU=!Accounts,DC=ATTACK,DC=LOCAL" -ProtectedFromAccidentalDeletion $Protect -verbose
