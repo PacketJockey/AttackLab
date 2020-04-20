@@ -1,0 +1,5 @@
+New-ADOrganizationalUnit -Name "!Accounts" -Path "DC=ATTACK,DC=LOCAL"-ProtectedFromAccidentalDeletion $Protect -verbose
+New-ADOrganizationalUnit -Name "!Desktops" -Path "DC=ATTACK,DC=LOCAL"-ProtectedFromAccidentalDeletion $Protect -verbose
+New-ADOrganizationalUnit -Name "!Servers" -Path "DC=ATTACK,DC=LOCAL"-ProtectedFromAccidentalDeletion $Protect -verbose
+New-ADOrganizationalUnit -Name "Monkey" -Path "DC=ATTACK,DC=LOCAL"-ProtectedFromAccidentalDeletion $Protect -verbose
+New-ADOrganizationalUnit -Name "Cows" -Path "DC=ATTACK,DC=LOCAL"-ProtectedFromAccidentalDeletion $Protect -verbose
